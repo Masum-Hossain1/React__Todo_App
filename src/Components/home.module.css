@@ -6,3 +6,8 @@
   background-color: #444;
   min-height: 100vh;
 }
+.title {
+  color: #fff;
+  font-size: 3rem;
+  padding: 2rem 0;
+}

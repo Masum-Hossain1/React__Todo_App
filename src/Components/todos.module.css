@@ -7,3 +7,13 @@
   overflow: scroll;
   border-radius: 0.6rem;
 }
+@media screen and (max-width: 1000px) {
+  .todos {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 676px) {
+  .todos {
+    width: 96%;
+  }
+}

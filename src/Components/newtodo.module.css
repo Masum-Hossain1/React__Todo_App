@@ -40,3 +40,25 @@
   background-color: orange;
   color: #fff;
 }
+
+@media screen and (max-width: 1000px) {
+  .form {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 676px) {
+  .form {
+    width: 96%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .form-field {
+    flex-direction: column;
+  }
+  .form-field label {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
